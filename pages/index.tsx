@@ -169,6 +169,22 @@ export default function Home() {
           <List.Item arrow="horizontal">분기 선택</List.Item>
         </Picker>
       </div>
+      <style jsx global>{`
+        @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+        @import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+        @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+        @import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+        @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+        @import url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
+
+        html,
+        body {
+          font-family: "Nanum Gothic";
+        }
+        body {
+          margin-bottom: 50px;
+        }
+      `}</style>
     </div>
   );
 }
