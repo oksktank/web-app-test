@@ -5,9 +5,9 @@ import { Badge, Tabs, Toast, WhiteSpace } from "antd-mobile";
 import "antd-mobile/dist/antd-mobile.css";
 
 const tabs = [
-  { title: <Badge text={"3"}>First Tab</Badge> },
-  { title: <Badge text={"20"}>Second Tab</Badge> },
-  { title: <Badge dot>Third Tab</Badge> },
+  { title: <Badge text={"3"}>첫번째 탭</Badge> },
+  { title: <Badge text={"20"}>두번째 탭</Badge> },
+  { title: <Badge dot>세번째 탭</Badge> },
 ];
 
 const tabs2 = [
