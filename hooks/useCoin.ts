@@ -12,7 +12,7 @@ const useCoin = () => {
     const data = await axios.get(
       "https://api.upbit.com/v1/market/all?isDetails=false"
     );
-    await new Promise((r) => setTimeout(r, 3000));
+    await new Promise((r) => setTimeout(r, 1500));
     return data;
   });
   return {
